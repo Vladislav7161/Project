@@ -1,0 +1,65 @@
+body{
+  font-family: 'Poiret One', cursive;
+  overflow: hidden;
+  background:linear-gradient(#eeff00, #0011ff);
+}
+.container{
+  width: 95%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.digitalClock{
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+  border-radius: 2px;
+  color: #000000;
+  background: rgba(255, 0, 0, 0);
+}
+
+.digitalClock h1{
+  display: inline-block;
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+select#city {
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #333;
+  width: 200px;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  margin-top: -20px;
+  margin-left: -75px;
+}
+
+select#format {
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #333;
+  width: 200px;
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  margin-top: -20px;
+  margin-left: -75px;
+}
+
+
+
+
+
